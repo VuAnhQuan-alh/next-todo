@@ -33,3 +33,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# environments
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+.env
+
+# database
+dev.db*
+migrations

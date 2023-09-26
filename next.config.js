@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  reactStrictMode: true,
+  // experimental: {
+  //   optimizeCss: true, // enabling this will enable SSR for Tailwind
+  // },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
