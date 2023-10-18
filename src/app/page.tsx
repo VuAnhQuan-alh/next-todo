@@ -10,6 +10,9 @@ export default async function Home() {
         <li>
           <Link href="/router">App router</Link>
         </li>
+        <li>
+          <Link href="/auth">Auth Fast</Link>
+        </li>
       </ul>
     </section>
   );

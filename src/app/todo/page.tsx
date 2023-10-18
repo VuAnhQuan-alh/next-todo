@@ -31,7 +31,7 @@ async function deleteTodo(id: number) {
   revalidatePath("/todo");
 }
 
-export default async function Home() {
+export default async function TodoPage() {
   const todo = await getTodo();
   console.log("todo render");
 
